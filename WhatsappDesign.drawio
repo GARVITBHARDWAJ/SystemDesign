@@ -1,9 +1,62 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6">
   <diagram name="Page-1" id="GHOJRxWjGVEZlhl5jPjd">
-    <mxGraphModel>
+    <mxGraphModel dx="1781" dy="1761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="6BHZrWosN3ZxabO44CqT-1" value="User 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="120" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6BHZrWosN3ZxabO44CqT-2" value="User 2&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22User%201%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%2210%22%20y%3D%22120%22%20width%3D%2280%22%20height%3D%2240%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="230" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6BHZrWosN3ZxabO44CqT-3" value="User 3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="320" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6BHZrWosN3ZxabO44CqT-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="120" width="120" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="6BHZrWosN3ZxabO44CqT-5" value="Chat Server 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="324" y="130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6BHZrWosN3ZxabO44CqT-6" value="Chat Server 2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="235" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6BHZrWosN3ZxabO44CqT-7" value="Chat Server 3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6BHZrWosN3ZxabO44CqT-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.167;entryY=0.333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6BHZrWosN3ZxabO44CqT-1" target="6BHZrWosN3ZxabO44CqT-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6BHZrWosN3ZxabO44CqT-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.333;entryY=0.667;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6BHZrWosN3ZxabO44CqT-3" target="6BHZrWosN3ZxabO44CqT-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6BHZrWosN3ZxabO44CqT-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.167;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6BHZrWosN3ZxabO44CqT-2" target="6BHZrWosN3ZxabO44CqT-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="250" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6BHZrWosN3ZxabO44CqT-16" value="Chat Server" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="380" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6BHZrWosN3ZxabO44CqT-20" value="Functional Requiremnet&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1) User should be able to send and receive the chat&lt;br&gt;2) Group Chat&lt;br&gt;3) Last Seen&lt;br&gt;4) Chat History&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-18" y="-190" width="370" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="6BHZrWosN3ZxabO44CqT-21" value="&lt;div&gt;Non Functional Requirement&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1) Scalable&lt;br&gt;2) Low Latency&lt;br&gt;3) Availability&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="-190" width="370" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="6BHZrWosN3ZxabO44CqT-24" value="sendMsg(User u1, User u2, String msg)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-18" y="80" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6BHZrWosN3ZxabO44CqT-25" value="webSockets" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="150" y="140" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6BHZrWosN3ZxabO44CqT-26" value="webSockets" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="150" y="260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6BHZrWosN3ZxabO44CqT-27" value="webSockets" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="150" y="340" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
